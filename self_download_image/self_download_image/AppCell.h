@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AppCell.h
 //  self_download_image
 //
 //  Created by ximdefangzh on 16/8/21.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface AppCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
 @end
-

@@ -7,10 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#define URLStr @"https://raw.githubusercontent.com/ximdefangzh/XIMSelfImage/master/apps.json"
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-@property (weak, nonatomic) IBOutlet UILabel *downloadLabel;
 
 @end
 

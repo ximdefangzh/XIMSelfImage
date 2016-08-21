@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="79" id="71j-7f-Jyp">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="appCell" rowHeight="79" id="71j-7f-Jyp" customClass="AppCell">
                                 <rect key="frame" x="0.0" y="28" width="600" height="79"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="71j-7f-Jyp" id="lo4-qR-U6C">
@@ -50,6 +50,11 @@
                                         <constraint firstItem="QDT-2e-1qp" firstAttribute="top" secondItem="lo4-qR-U6C" secondAttribute="top" constant="5" id="a1l-QR-nAd"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="downloadLabel" destination="zTx-TR-bEb" id="HZ4-xh-1ix"/>
+                                    <outlet property="iconImageView" destination="QDT-2e-1qp" id="tNT-7z-lo4"/>
+                                    <outlet property="nameLabel" destination="2OH-Rd-q3H" id="YaC-O6-PcV"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -57,15 +62,10 @@
                             <outlet property="delegate" destination="oBB-f1-eNa" id="ngl-GE-6B3"/>
                         </connections>
                     </tableView>
-                    <connections>
-                        <outlet property="downloadLabel" destination="zTx-TR-bEb" id="LHi-CX-eVR"/>
-                        <outlet property="iconImageView" destination="QDT-2e-1qp" id="egk-hk-EjL"/>
-                        <outlet property="nameLabel" destination="2OH-Rd-q3H" id="EpD-OG-aHu"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0J7-OJ-SV7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="383" y="258"/>
+            <point key="canvasLocation" x="253" y="252"/>
         </scene>
     </scenes>
 </document>
