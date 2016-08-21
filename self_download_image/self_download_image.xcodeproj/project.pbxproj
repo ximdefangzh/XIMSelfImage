@@ -37,6 +37,7 @@
 		BC76463B1D69582C0099F11C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7646231D69582C0099F11C /* UIImageView+HighlightedWebCache.m */; };
 		BC76463C1D69582C0099F11C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7646251D69582C0099F11C /* UIImageView+WebCache.m */; };
 		BC76463D1D69582C0099F11C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7646271D69582C0099F11C /* UIView+WebCacheOperation.m */; };
+		BC7646401D6986400099F11C /* NSString+SandPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BC76463F1D6986400099F11C /* NSString+SandPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,8 @@
 		BC7646251D69582C0099F11C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		BC7646261D69582C0099F11C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		BC7646271D69582C0099F11C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		BC76463E1D6986400099F11C /* NSString+SandPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SandPath.h"; sourceTree = "<group>"; };
+		BC76463F1D6986400099F11C /* NSString+SandPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SandPath.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				BC7645921D694C4A0099F11C /* AppDelegate.m */,
 				BC7645941D694C4A0099F11C /* ViewController.h */,
 				BC7645951D694C4A0099F11C /* ViewController.m */,
+				BC76463E1D6986400099F11C /* NSString+SandPath.h */,
+				BC76463F1D6986400099F11C /* NSString+SandPath.m */,
 				BC7645F41D6957080099F11C /* AppCell.h */,
 				BC7645F51D6957080099F11C /* AppCell.m */,
 				BC7645A51D694DC90099F11C /* AppModel.h */,
@@ -309,6 +314,7 @@
 				BC7646341D69582C0099F11C /* SDWebImageDownloaderOperation.m in Sources */,
 				BC76462E1D69582C0099F11C /* MKAnnotationView+WebCache.m in Sources */,
 				BC7646311D69582C0099F11C /* SDWebImageCompat.m in Sources */,
+				BC7646401D6986400099F11C /* NSString+SandPath.m in Sources */,
 				BC76462C1D69582C0099F11C /* AFURLResponseSerialization.m in Sources */,
 				BC7646391D69582C0099F11C /* UIImage+MultiFormat.m in Sources */,
 				BC76463C1D69582C0099F11C /* UIImageView+WebCache.m in Sources */,

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class AppModel;
 @interface AppCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
+@property (nonatomic,strong)AppModel *model;
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "AppCell.h"
+#import "AppModel.h"
 @interface AppCell()
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *downloadLabel;
@@ -14,15 +15,9 @@
 @end
 @implementation AppCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+-(void)setModel:(AppModel *)model{
+    _model = model;
+    self.nameLabel.text = model.name;
+    self.downloadLabel.text = model.download;
 }
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
-}
-
 @end

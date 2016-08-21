@@ -10,7 +10,7 @@
 
 @interface AppModel : NSObject
 @property (nonatomic,copy)NSString *name;
-@property (nonatomic,copy)NSString *downlaod;
+@property (nonatomic,copy)NSString *download;
 @property (nonatomic,copy)NSString *icon;
 +(instancetype)appWithDict:(NSDictionary *)dict;
 @end
